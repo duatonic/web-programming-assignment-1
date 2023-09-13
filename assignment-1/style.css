@@ -197,11 +197,11 @@ button:hover {
     top: 15px;
 }
 
-.slide-content-item>img {
+.slide-content-item>a>img {
     border-radius: 5px;
 }
 
-.slide-content-item>img:hover {
+.slide-content-item>a>img:hover {
     transform: scale(1.05);
     transition: 0.5s;
 }
