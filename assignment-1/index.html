@@ -5,8 +5,10 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Player One • Manage Your Play-list</title>
+        <title>Player One • Manage Your Games</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" sizes="196x196" href="resources/Favicon-white.png" type="image/x-icon">
+        <script src="script.js"></script>
 
     </head>
     <body>
@@ -31,60 +33,53 @@
                 </nav>
             </section>
         </header>
-            <section>
-                <div class="banner sign-header">
-                    <h1>Where Your Gaming Journey begins</h1>
-                    <div class="sign-button">
-                        <button type="button">Sign In</button>
-                        <button type="button">Guest</button>
+        <section>
+            <div class="banner sign-header">
+                <h1>Where Your Gaming Journey Begins</h1>
+                <div class="sign-button">
+                    <button type="button">Sign In</button>
+                    <button type="button">Guest</button>
+                </div>
+            </div>
+            <div class="content-slide-recommends">
+                <h2 class="new-trending-h new-trend-header">New & Trending</h2>
+                <p class="new-trending-p new-trend-header">Discover what others have been playing</p>
+                <div class="trending-slide-container">
+                    <div class="trending-slide-content">
+                        <ul class="slide-content">
+                            <a class="slide-content-item" href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank"><img src="resources/game-covers/hollow-knight-cover.png" alt="Hollow Knight" width="170" height="255"></a>
+                        
+                            <a class="slide-content-item" href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank"><img src="resources/game-covers/rdr2-cover.png" alt="Red Dead Redemption 2" width="170" height="255"></a>
+                        
+                            <a class="slide-content-item" href="https://store.steampowered.com/app/1328670/Mass_Effect_Legendary_Edition/" target="_blank"><img src="resources/game-covers/mass-effect-le-cover.png" alt="Mass Effect Legendary Edition" width="170" height="255"></a>
+                        
+                            <a class="slide-content-item" href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank"><img src="resources/game-covers/stardew-valley-cover.png" alt="Stardew Valley" width="170" height="255"></a>
+                        
+                            <a class="slide-content-item" href="https://store.steampowered.com/app/22380/Fallout_New_Vegas/" target="_blank"><img src="resources/game-covers/fallout-nv-cover.png" alt="Fallout: New Vegas" width="170" height="255"></a>
+                        
+                            <a class="slide-content-item" href="https://store.steampowered.com/app/1145360/Hades/" target="_blank"><img src="resources/game-covers/hades-cover.jpg" alt="Hades" width="170" height="255"></a>
+                        
+                            <a class="slide-content-item" href="https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/" target="_blank"><img src="resources/game-covers/divinity-os2-cover.png" alt="Divinity: Original Sin 2" width="170" height="255"></a>
+                        </ul>
+                    </div>
+                    <div class="arrow left" role="button">
+                        <div></div>
+                    </div>
+                    <div class="arrow right" role="button">
+                        <div></div>
                     </div>
                 </div>
-                <div class="content-slide-recommends">
-                    <h2 class="new-trending-h new-trend-header">New & Trending</h2>
-                    <p class="new-trending-p new-trend-header">Discover what others have been playing</p>
-                    <div class="trending-slide-container">
-                        <div class="trending-slide-content">
-                            <ul class="slide-content">
-                                <li class="slide-content-item">
-                                    <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank"><img src="resources/game-covers/hollow-knight-cover.png" alt="Hollow Knight" width="170" height="255"></a>
-                                </li>
-                                <li class="slide-content-item">
-                                    <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank"><img src="resources/game-covers/rdr2-cover.png" alt="Red Dead Redemption 2" width="170" height="255"></a>
-                                </li>
-                                <li class="slide-content-item">
-                                    <a href="https://store.steampowered.com/app/1328670/Mass_Effect_Legendary_Edition/" target="_blank"><img src="resources/game-covers/mass-effect-le-cover.png" alt="Mass Effect Legendary Edition" width="170" height="255"></a>
-                                </li>
-                                <li class="slide-content-item">
-                                    <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank"><img src="resources/game-covers/stardew-valley-cover.png" alt="Stardew Valley" width="170" height="255"></a>
-                                </li>
-                                <li class="slide-content-item">
-                                    <a href="https://store.steampowered.com/app/22380/Fallout_New_Vegas/" target="_blank"><img src="resources/game-covers/fallout-nv-cover.png" alt="Fallout: New Vegas" width="170" height="255"></a>
-                                </li>
-                                <li class="slide-content-item">
-                                    <a href="https://store.steampowered.com/app/1145360/Hades/" target="_blank"><img src="resources/game-covers/hades-cover.jpg" alt="Hades" width="170" height="255"></a>
-                                </li>
-                                <li class="slide-content-item">
-                                    <a href="https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/" target="_blank"><img src="resources/game-covers/divinity-os2-cover.png" alt="Divinity: Original Sin 2" width="170" height="255"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="arrow left">
-                            <div></div>
-                        </div>
-                        <div class="arrow right">
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about">
-                    <h4 class="about-header">About Player One</h4>
-                    <p class="about-p">Player One is a platform for gamers to share their gaming experiences with others. 
-                        It is a place where you can find new games to play, share your gaming experiences with others, 
-                        and make new friends. Player One is a place where your gaming journey begins.</p>
-                    <p class="about-contact">
-                        Site made by: <br>Rafli Dzulhaikal<br>5025221148<br>PWEB D
-                    </p>
-                </div>
-            </section>
+            </div>
+            <div class="about site-footer">
+                <p class="about-p footer-logo">
+                    <img src="resources/Logo-white.png" alt="Player One" id="foot-logo">
+                </p>
+                <p class="about-p about-p1 about-links">
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </p>
+                <p class="about-p about-p2">© 2023 Player One. All rights reserved. Made by <a href="#">one guy</a> in Indonesia. Game data from <a href="https://www.igdb.com" target="_blank">IGDB</a>. This site is not intended for comercial use and is not advertised in any way.</p>
+            </div>
+        </section>
     </body>
 </html>
